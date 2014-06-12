@@ -54,7 +54,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/System/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/local/bin:/opt/local/sbin:/Users/geoffroy/bin:/Users/geoffroy/.bin:./bin:/Users/geoffroy/.rvm/gems/ruby-1.9.3-p545@rails3/bin:/Users/geoffroy/.rvm/gems/ruby-1.9.3-p545@global/bin:/Users/geoffroy/.rvm/rubies/ruby-1.9.3-p545/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/geoffroy/.rvm/bin:/Users/geoffroy/.rvm/bin"
+export PATH="$PATH:/usr/local/bin:/System/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/local/bin:/opt/local/sbin:/Users/geoffroy/bin:/Users/geoffroy/.bin:./bin:/Users/geoffroy/.rvm/gems/ruby-1.9.3-p545@rails3/bin:/Users/geoffroy/.rvm/gems/ruby-1.9.3-p545@global/bin:/Users/geoffroy/.rvm/rubies/ruby-1.9.3-p545/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/geoffroy/.rvm/bin:/Users/geoffroy/.rvm/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
