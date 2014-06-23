@@ -11,6 +11,7 @@ end
 
 # Use Pry everywhere
 begin    
+  require "readline"
 	require "rubygems"
 	require 'pry'    
 	Pry.start
