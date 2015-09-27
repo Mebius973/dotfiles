@@ -40,7 +40,7 @@ alias gdiff="git difftool -y -x 'colordiff -y -W $COLUMNS'"
 fliptable() { echo "（╯°□°）╯ ┻━┻"; }
 
 # Mebius' custom aliases
-alias ssh='mosh'
+#alias ssh='mosh'
 alias ls='ls -G'
 alias ll='ls -alF'
 alias la='ls -A'
@@ -58,7 +58,7 @@ alias kimsufi='ssh -L 5901:localhost:5901 geoffroy@ns3099059.ip-94-23-198.eu'
 alias kimsufi-root='ssh root@ns3099059.ip-94-23-198.eu'
 alias sublime-text='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 alias mate='/Applications/TextMate.app/Contents/MacOS/TextMate'
-alias screen='screen screen'
+#alias screen='screen screen'
 
 
 # Add an "alert" alias for long running commands.  Use like so:

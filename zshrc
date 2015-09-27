@@ -76,4 +76,3 @@ export PATH="$PATH:/usr/local/bin:/System/Library/Frameworks/Python.framework/Ve
 # include custom configuration :-)
 source $HOME/.profile
 source $HOME/.aliases
-tmux source-file ~/.tmux.conf
