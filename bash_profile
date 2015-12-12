@@ -77,30 +77,6 @@ if [ -x /usr/bin/dircolors ]; then
   alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
-alias ssh='mosh'
-alias ls='ls -G'
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias lal='ls -al'
-alias perso='ssh geoffroy2010@perso.iiens.net'
-alias projet='ssh david.geoffroy@lunix31.ensiie.fr'
-alias ensiie='ssh david.geoffroy@lunix121.ensiie.fr'
-alias ensiie2='ssh david.geoffroy@lunix122.ensiie.fr'
-alias tunnel='ssh -D5656 david.geoffroy@lunix121.ensiie.fr'
-alias cod4='ssh callofduty@snake.iiens.net'
-alias compiler='gcc -Wall -o'
-alias guitarpro='DGuitar.sh'
-alias kimsufi='ssh -L 5901:localhost:5901 geoffroy@ns3099059.ip-94-23-198.eu'
-alias kimsufi-root='ssh root@ns3099059.ip-94-23-198.eu'
-alias sublime-text='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
-alias mate='/Applications/TextMate.app/Contents/MacOS/TextMate'
-
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
