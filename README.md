@@ -1,7 +1,7 @@
-blackbird dotfiles
+Mebius dotfiles
 ==================
 
-Commons dotfiles for Blackbird Team, for unix system, with vim, git, pry and tmux.
+Commons dotfile for unix system, with vim, git, pry and tmux.
 Install some must-have plugins and aliases for developping with rails framework.
 
 Requirements
@@ -56,8 +56,8 @@ THIS LINE."
 For example, the top of your `~/.gitconfig` might look like this:
 
     [user]
-      name = Mebius
-      email = viddafroygeo@hotmail.com
+      name = 
+      email = 
 
     # DO NOT EDIT BELOW THIS LINE
 

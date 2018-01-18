@@ -1,6 +1,7 @@
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-# MacPorts Installer addition on 2014-03-23_at_22:12:37: adding an appropriate PATH variable for use with MacPorts    .
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
+# MacPorts Installer addition on 2018-01-17_at_22:50:03: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 # Setting PATH for Python 2.7
