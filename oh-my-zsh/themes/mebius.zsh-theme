@@ -9,4 +9,4 @@ git_prompt_info() {
 # prompt
 RPS1='$(git_prompt_info)'
 
-PROMPT='%{$fg[magenta]%}%n% %{$reset_color%}@% %{$fg[cyan]%}%m: %{$reset_color%}%~ $ %'
+PROMPT='%{$fg[magenta]%}%n% %{$reset_color%}@% %{$fg[cyan]%}%m: %{$reset_color%}%~ $ %}'
