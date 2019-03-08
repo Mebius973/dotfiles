@@ -77,3 +77,5 @@ export PATH="$PATH:/usr/local/bin:/System/Library/Frameworks/Python.framework/Ve
 # include custom configuration :-)
 source $HOME/.profile
 source $HOME/.aliases
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

@@ -9,6 +9,7 @@
 [color]
   ui = true
 [alias]
+	pull = pull --rebase
   aa = add --all
   st = status
   br = branch

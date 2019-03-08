@@ -26,5 +26,6 @@ Bundle 'vim-scripts/tComment'
 Bundle 'xenoterracide/html.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'rodjek/vim-puppet'
+Bundle 'rizzatti/dash.vim'
 
 filetype on
