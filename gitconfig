@@ -24,3 +24,5 @@
 	excludesfile = /Users/mebius/.gitignore_global
   autocrlf = input
   editor = vim
+[credential]
+	helper = store
