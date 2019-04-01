@@ -8,7 +8,7 @@ cutstring="DO NOT EDIT BELOW THIS LINE"
 for name in *; do
   target="$HOME/.$name"
 	if [ ${name##*.} == "zsh-theme" ]; then
-		ln -s $name ./oh-my-zsh/custom/themes/$name
+		cp $name oh-my-zsh/custom/themes/
   elif [ -e "$target" ]; then
     if [ ! -L "$target" ]; then
       cutline=`grep -n -m1 "$cutstring" "$target" | sed "s/:.*//"`
