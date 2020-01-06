@@ -1,6 +1,6 @@
 [user]
   name = Mebius	
-  email = viddafroygeo@hotmail.com
+  email =
 
 # DO NOTE EDIT BELOW THIS LINE
 
@@ -9,7 +9,7 @@
 [color]
   ui = true
 [alias]
-	pull = pull --rebase
+  pull = pull --rebase
   aa = add --all
   st = status
   br = branch
@@ -21,8 +21,8 @@
   lgp = log -p
   lgn = log --name-only
 [core]
-	excludesfile = /Users/mebius/.gitignore_global
+  excludesfile = /Users/mebius/.gitignore_global
   autocrlf = input
   editor = vim
 [credential]
-	helper = store
+  helper = store
