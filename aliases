@@ -51,8 +51,15 @@ alias sizeof='du -sh'
 alias subl='/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text'
 alias disableITunesPlayButton='launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist'
 alias enableITunesPlayButton='launchctl load -w /System/Library/LaunchAgents/com.apple.rcd.plist'
-alias sudo='cygstart --action=runas'
-
+alias py='python3'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -    e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+convert2mp3() {
+	if [ $# -ne 1 ];
+	then echo "usage: convert2mp3 VIDEO_FILE_TO_CONVERT"
+	fi;
+	filename="$(basename "$filename" | sed 's/\(.*\)\..*/\1/')"
+	ffmpeg -i $1 -codec:a libmp3lame -b:a 128K "$filename.mp3"
+ }
