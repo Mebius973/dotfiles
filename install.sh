@@ -1,7 +1,6 @@
 #!/bin/bash
 
-git submodule init
-git submodule update
+git submodule update --init --recursive
 
 cutstring="DO NOT EDIT BELOW THIS LINE"
 
@@ -30,7 +29,7 @@ for name in *; do
   else
     if [ "$name" != 'install.sh' ] && [ "$name" != 'README.md' ]; then
       echo "Creating $target"
-      if [ -n "$(grep "$cutstring" "$name")" ]; then
+      if ! [ -d $name ] && [ -n "$(grep "$cutstring" "$name")" ]; then
         cp "$PWD/$name" "$target"
       else
         ln -s "$PWD/$name" "$target"
